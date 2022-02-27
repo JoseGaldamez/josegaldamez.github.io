@@ -1,10 +1,16 @@
 import React from 'react';
+import Header from '../common/Header/Header';
+import PrincipalSection from '../sections/PrincipalSection/PrincipalSection';
+import SkillsSection from '../sections/SkilsSection/SkillsSection';
 
 const HomePage = () => {
     return (
         <>
-            <header>Aquí va el menu</header>
-            <main>contenido</main>
+            <Header />
+            <main>
+                <PrincipalSection />
+                <SkillsSection />
+            </main>
             <footer>Footer</footer>
         </>
     );
