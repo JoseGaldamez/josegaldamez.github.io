@@ -1,0 +1,41 @@
+.header{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    width: 100%;
+    transform: translate(calc(50vw - 50%));
+    z-index: 100;
+}
+
+.main_header{
+    max-width: 960px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.float_menu{
+    background-color: rgba(255, 255, 255, 0.95) ;
+    position: absolute;
+    width: 100%;
+    top: 63px;
+    text-align: center;
+}
+
+.float_menu ul{
+    list-style: none;
+}
+
+.float_menu ul li{
+    border-bottom: solid 1px #f1f1f1;
+    padding: 15px;
+}
+
+.float_menu ul li a{
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-weight: 600;
+    color: #555;
+}
+

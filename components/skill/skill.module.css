@@ -1,0 +1,28 @@
+.skill{
+    text-align: center;
+    margin: 50px 10px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.titleSkill{
+    color: #002333;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.paragraph{
+    color: #262626;
+    padding: 10px 50px;
+    margin: 0px auto;
+}
+
+@media (max-width: 800px) {
+    .skill{
+        width: 400px;
+    }
+}

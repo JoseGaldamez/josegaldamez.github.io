@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+
+import { Header } from '../components/header';
+import { Principal } from '../components/sections/main';
+import { Skills } from '../components/sections/skills';
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+      <>
+        <Header />
+        <Principal />
+        <Skills />
+      </>
   )
 }
 
