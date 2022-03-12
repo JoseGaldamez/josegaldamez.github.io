@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next",
     "start": "next start",
-    "build": "next build && next export"
+    "build": "next build && next export && cp -R ./.next/static ./out/_next/static/"
   },
   "repository": {
     "type": "git",
