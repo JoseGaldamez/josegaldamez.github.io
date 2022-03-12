@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import { Header } from '../components/header';
 import { Principal } from '../components/sections/main';
 import { Skills } from '../components/sections/skills';
 
 const HomePage = () => {
+
   return (
       <>
         <Header />
