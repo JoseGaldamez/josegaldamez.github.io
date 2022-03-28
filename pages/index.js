@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import { ContactBanner } from '../components/contactBanner';
 
 import { Header } from '../components/header';
 import ListTechnologies from '../components/sections/ListTechnologies/ListTechnologies';
@@ -19,6 +20,7 @@ const HomePage = () => {
         <Principal />
         <Skills />
         <ListTechnologies />
+        <ContactBanner />
       </>
   )
 }

@@ -16,8 +16,8 @@ const ListTechnologies = () => {
         <Technology url="/icons/node.png" text="Node JS" />
         <Technology url="/icons/go.png" text="Golang" />
         <Technology url="/icons/firebase.png" text="Firebase" />
-        
     </div>
+    <p className={style.paragraph} >Among other useful and complementary technologies.</p>
     </>
   )
 }

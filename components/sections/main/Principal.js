@@ -13,7 +13,7 @@ function Principal() {
     }
 
     const contact = () => {
-        router.push('/blog');
+        router.push('/contact');
     }
 
   return (
