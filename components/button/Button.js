@@ -4,8 +4,6 @@ import style from './button.module.css';
 
 function Button({text, type="primary", action}) {
 
-
-
   return (
       <button onClick={action}
           className={`${style.btn} ${type == 'primary' ? style.primary : style.secondary }`}

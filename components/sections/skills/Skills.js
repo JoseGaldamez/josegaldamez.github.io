@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import style from './skills.module.css';
 import {Skill}  from '../../skill';
@@ -25,4 +26,33 @@ function Skills() {
   )
 }
 
+=======
+import React from 'react';
+import style from './skills.module.css';
+import {Skill}  from '../../skill';
+import { Title } from '../../title';
+
+function Skills() {
+  return (
+    <div className={ style.skills }>
+      <Title text="Skills" />
+      <div className={style.list_skills}>
+          <Skill 
+            image="/assets/web-icono.png"
+            title="Front-end" 
+            text={`Build web applications with React SJ and Angular`} />
+          <Skill 
+          image="/assets/mobile-icono.png"
+          title="Mobile App"
+          text="Build your app for Android and iOS with Flutter" />
+          <Skill 
+          image="/assets/backend-icono.png"
+          title="Back-end"
+          text="A strong management of DB with NodeJS and Go" />
+        </div>
+    </div>
+  )
+}
+
+>>>>>>> 4ea754074b6b29279c9b7ac89b93a2c90c1b5003
 export default Skills

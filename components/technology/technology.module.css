@@ -1,0 +1,9 @@
+.item{
+    text-align: center;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.item figure{
+    height: 100px;
+}

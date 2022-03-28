@@ -1,0 +1,10 @@
+.subtitle{
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.hr{
+    border-bottom: solid 1px #333;
+    width: 100px;
+    margin: 25px auto;
+}
