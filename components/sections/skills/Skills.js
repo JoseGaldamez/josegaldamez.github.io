@@ -1,12 +1,12 @@
 import React from 'react';
 import style from './skills.module.css';
 import {Skill}  from '../../skill';
+import { Title } from '../../title';
 
 function Skills() {
   return (
     <div className={ style.skills }>
-      <h2 className={style.subtitle}>Habilidades</h2>
-      <hr className={style.hr}/>
+      <Title text="Skills" />
       <div className={style.list_skills}>
           <Skill 
             image="/assets/web-icono.png"

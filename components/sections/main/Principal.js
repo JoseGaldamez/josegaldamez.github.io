@@ -9,7 +9,7 @@ function Principal() {
     const router = useRouter();
 
     const download = () => {
-        window.open('https://www.codigocorrecto.com/wp-content/uploads/2022/03/cv.pdf', '_blank', 'download');
+        window.open('https://www.codigocorrecto.com/wp-content/uploads/2022/03/jose-galdamez-resume.pdf', '_blank', 'download');
     }
 
     const contact = () => {
@@ -20,10 +20,10 @@ function Principal() {
     <div className={style.pricipal_section}>
         <div className={style.pricipal_section__image}></div>
         <h1 className={style.title}>José Galdámez</h1>
-        <p className={style.paragraph}>Desarrollador web y de aplicaciones móviles</p>
+        <p className={style.paragraph}>Web and mobile developer</p>
         <div className={style.buttons}>
-            <Button text="Descargar CV" action={download} />
-            <Button text="Contacto" type="secondary" action={contact} />
+            <Button text="Download CV" action={download} />
+            <Button text="Contact" type="secondary" action={contact} />
         </div>
     </div>
   )

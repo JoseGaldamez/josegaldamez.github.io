@@ -1,19 +1,8 @@
 .skills{
     background-color: #f1f1f1;
-    padding-top: 10vh;
     padding-bottom: 10vh;
     display: flex;
     flex-direction: column;
-}
-
-.subtitle{
-    text-align: center;
-}
-
-.hr{
-    border-bottom: solid 1px #333;
-    width: 100px;
-    margin: 25px auto;
 }
 
 .list_skills{
