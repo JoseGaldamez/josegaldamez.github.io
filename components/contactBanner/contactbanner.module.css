@@ -1,5 +1,6 @@
 .banner{
-    width: 720px;
+    width: 95%;
+    max-width: 720px;
     margin: 0px auto;
     background-color: #002333;
     padding: 40px 10px;
@@ -25,4 +26,16 @@
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner h3{
+        margin-right: 0px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 }

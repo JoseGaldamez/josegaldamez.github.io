@@ -17,12 +17,13 @@
 
 .paragraph{
     color: #262626;
-    padding: 10px 50px;
+    padding: 10px 30px;
     margin: 0px auto;
 }
 
 @media (max-width: 800px) {
     .skill{
         width: 400px;
+        padding: 10px;
     }
 }
