@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
       <>
       <Head>
-        <title>Jose Galdamez | Software Developer</title>
+        <title>Jose Galdamez | Developer</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"></link>
       </Head>
         <Header />

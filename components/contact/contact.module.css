@@ -1,0 +1,41 @@
+.contact{
+    padding-top: 30px;
+}
+
+.clicks{
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 720px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.whatsapp{
+    margin: 30px auto;
+}
+
+.whatsapp img{
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .clicks{
+        display: grid;
+        width: 85%;
+        margin: 0 auto;
+        max-width: 720px;
+        grid-template-columns: 1fr;
+    }
+
+    .whatsapp{
+        margin: 0px auto;
+        padding: 0px 20px;
+    }
+    .paragraph{
+        padding: 20px;
+    }
+}
