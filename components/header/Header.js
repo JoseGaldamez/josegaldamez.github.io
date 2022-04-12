@@ -14,8 +14,12 @@ const Header = () => {
     <>
     <div className={style.header}>
       <header className={style.main_header}>
-          <Image src="/assets/jg-logo.png" alt="me" width={ 64 * 0.75 } height={ 44 * 0.75 } />
-          <Image  onClick={ () => setShowMenu( !showMenu ) } 
+        <Link href="/">
+          <a>
+            <Image className={style.menu_button} src="/assets/jg-logo.png" alt="me" width={ 64 * 0.75 } height={ 44 * 0.75 } />
+          </a>
+        </Link>
+          <Image className={style.menu_button}  onClick={ () => setShowMenu( !showMenu ) } 
                   src="/assets/menu-icon.png" 
                   alt="me" width={ 44 * 0.75 } height={ 30 * 0.75 } />
       </header>
@@ -23,12 +27,12 @@ const Header = () => {
         <ul>
           <li>
             <Link href="/">
-              <a>Inicio</a>
+              <a>Home</a>
             </Link>
           </li>
           <li>
             <Link href="/projects">
-              <a>Proyectos</a>
+              <a>Projects</a>
             </Link>
           </li>
           <li>

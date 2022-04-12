@@ -5,9 +5,9 @@ import style from './contactbanner.module.css';
 const ContactBanner = () => {
   return (
     <div className={style.banner} >
-        <h3>¿Tienes un proyecto en mente?</h3>
+        <h3>Do you have something in mind?</h3>
         <Link href="/contact" >
-            <a>Escríbeme</a>
+            <a>Contact me</a>
         </Link>
     </div>
   )

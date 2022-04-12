@@ -29,9 +29,9 @@ const Contact = () => {
                 </Link>
             </div>
         </div>
-        <p className={style.paragraph} >
+        {/* <p className={style.paragraph} >
             You can also contact me by my own platform
-        </p>
+        </p> */}
     </div>
   )
 }
