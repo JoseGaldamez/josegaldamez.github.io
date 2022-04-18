@@ -3,7 +3,9 @@ import React from 'react';
 import { ContactBanner } from '../components/contactBanner';
 
 import { Header } from '../components/header';
-import ListTechnologies from '../components/sections/ListTechnologies/ListTechnologies';
+import PersonalBlog from '../components/personalblog';
+import Projects from '../components/projects/Projects';
+import ListTechnologies from '../components/sections/ListTechnologies';
 import { Principal } from '../components/sections/main';
 import { Skills } from '../components/sections/skills';
 
@@ -21,6 +23,8 @@ const HomePage = () => {
         <Skills />
         <ListTechnologies />
         <ContactBanner />
+        <Projects />
+        <PersonalBlog />
       </>
   )
 }

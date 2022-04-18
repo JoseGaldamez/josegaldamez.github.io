@@ -9,9 +9,9 @@ const emailto = "mailto:josegaldamez1991@gmail.com";
 const Contact = () => {
   return (
     <div className={style.contact}>
-        <Title text="Contact" />
+        <Title text="Contacto" />
         <p className={style.paragraph} >
-            You are able to contact me by next ways:
+            Puedes contactarme de las siguientes formas:
         </p>
         <div className={style.clicks} >
             <div className={style.whatsapp}>
@@ -21,7 +21,7 @@ const Contact = () => {
                     </a>
                 </Link>
             </div>
-            <div className={style.whatsapp}>
+            <div className={style.email}>
                 <Link href={emailto}  >
                     <a target="_blank">
                         <img src="/assets/email.png" alt="Contact by whatsapp" />
@@ -29,9 +29,12 @@ const Contact = () => {
                 </Link>
             </div>
         </div>
-        {/* <p className={style.paragraph} >
-            You can also contact me by my own platform
-        </p> */}
+        <div className={style.social} >
+            <span>Icons</span>
+            <span>Icons</span>
+            <span>Icons</span>
+            <span>Icons</span>
+        </div>
     </div>
   )
 }

@@ -17,15 +17,15 @@ function Principal() {
     }
 
   return (
-    <div className={style.pricipal_section}>
+    <section className={`${style.pricipal_section} animate__animated animate__fadeIn`}>
         <div className={style.pricipal_section__image}></div>
         <h1 className={style.title}>José Galdámez</h1>
-        <p className={style.paragraph}>Web and mobile developer</p>
+        <p className={style.paragraph}>Desarrollador de aplicaciones móviles y web</p>
         <div className={style.buttons}>
-            <Button text="Download CV" action={download} />
-            <Button text="Contact" type="secondary" action={contact} />
+            <Button text="Descargar CV" action={download} />
+            <Button text="Contacto" type="secondary" action={contact} />
         </div>
-    </div>
+    </section>
   )
 }
 

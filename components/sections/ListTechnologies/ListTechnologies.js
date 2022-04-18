@@ -5,9 +5,9 @@ import style from './technologies.module.css';
 
 const ListTechnologies = () => {
   return (
-    <>
-    <Title text="Technologies" />
-    <div className={ style.list_techologies } >
+    <section className='animate__animated animate__fadeInUp'>
+    <Title text="Tecnologías" />
+    <div className={ `${style.list_techologies}` } >
         <Technology url="/icons/react.png" text="React JS" />
         <Technology url="/icons/angular.png" text="Angular" />
         <Technology url="/icons/flutter.png" text="Flutter" />
@@ -17,9 +17,9 @@ const ListTechnologies = () => {
         <Technology url="/icons/go.png" text="Golang" />
         <Technology url="/icons/firebase.png" text="Firebase" />
     </div>
-    <p className={style.paragraph} >Among other useful and complementary technologies.</p>
-    </>
+    <p className={style.paragraph} >Y muchos otros servicios y tecnologías relavantes.</p>
+    </section>
   )
 }
 
-export default ListTechnologies
+export default ListTechnologies;

@@ -1,0 +1,23 @@
+.card{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 250px;
+    cursor: pointer;
+}
+
+.h2{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.meta{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.meta span{
+    font-size: 12px;
+    color: #9a9a9a;
+}

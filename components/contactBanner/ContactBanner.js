@@ -4,12 +4,12 @@ import style from './contactbanner.module.css';
 
 const ContactBanner = () => {
   return (
-    <div className={style.banner} >
-        <h3>Do you have something in mind?</h3>
+    <section className={`${style.banner} animate__animated animate__fadeInUp` } >
+        <h3>¿Tienes algo en mente?</h3>
         <Link href="/contact" >
-            <a>Contact me</a>
+            <a>Contáctame</a>
         </Link>
-    </div>
+    </section>
   )
 }
 

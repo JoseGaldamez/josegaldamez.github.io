@@ -1,4 +1,26 @@
 .main{
     text-align: center;
-    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projects{
+    display: flex;
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.project{
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    scale: 1;
+    transition: all ease 500ms;
+}
+.project:hover{
+    transform: scale(1.05);
 }

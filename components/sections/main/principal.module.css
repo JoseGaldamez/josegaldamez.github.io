@@ -38,6 +38,17 @@
     flex-direction: column;
 }
 
+.buttons button{
+    opacity: 0.9;
+    scale: 0.9;
+    transition: all ease 0.3s;
+}
+
+.buttons button:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
 @media(min-width:768px){
     .buttons{
         flex-direction: row;

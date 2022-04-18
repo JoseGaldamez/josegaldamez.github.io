@@ -12,5 +12,7 @@
 
 .paragraph{
     text-align: center;
-    padding: 30px 0px 100px 0px;
+    text-decoration: underline;
+    padding: 20px 0px 100px 0px;
+    color: #999;
 }
