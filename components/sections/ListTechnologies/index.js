@@ -1,2 +1,1 @@
-import ListTechnologies from "./ListTechnologies";
-export default ListTechnologies;
+export * from "./ListTechnologies";

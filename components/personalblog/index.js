@@ -1,2 +1,1 @@
-import PersonalBlog from "./PersonalBlog";
-export default PersonalBlog;
+export * from "./PersonalBlog";

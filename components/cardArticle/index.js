@@ -1,2 +1,1 @@
-import CardArticle from "./cardArticle";
-export default CardArticle;
+export * from "./cardArticle";
